@@ -3,7 +3,7 @@ GLOBAL._ = require 'underscore'
 GLOBAL.async = require 'async'
 GLOBAL.clock = require './clock'
 GLOBAL.logger = require './logger'
-GLOBAL.settings = require '../../config/settings'
+GLOBAL.settings = require '../config/settings'
 
 _.mixin
   only: (obj, keys...) ->

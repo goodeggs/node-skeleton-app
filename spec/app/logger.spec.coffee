@@ -1,6 +1,6 @@
 require '../support/spec_helper'
 
-logger = require '../../app/lib/logger'
+logger = require '../../app/logger'
 
 describe 'logger', ->
 

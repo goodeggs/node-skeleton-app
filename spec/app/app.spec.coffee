@@ -1,7 +1,7 @@
 require '../support/spec_helper'
 request = require 'request'
 $ = require 'jquery'
-u = require '../../app/lib/utils'
+u = require '../../app/utils'
 qs = require 'querystring'
 
 root_uri = settings.serverUrl

@@ -1,6 +1,6 @@
 require '../support/spec_helper'
 
-clock = require '../../app/lib/clock'
+clock = require '../../app/clock'
 
 describe 'clock', ->
 

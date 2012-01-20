@@ -1,5 +1,5 @@
 require 'fibers'
-fibrous = require '../../app/lib/fibrous'
+fibrous = require '../../app/fibrous'
 
 # Monkey patch 'it', 'beforeEach', 'afterEach' to wrap spec in
 # async handler if it expects a done callback

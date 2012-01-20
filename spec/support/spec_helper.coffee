@@ -7,8 +7,8 @@ require './browser_helper'
 require './matchers_helper'
 url = require 'url'
 
-app = require '../../app/lib/app'
-require '../../app/lib/globals'
+app = require '../../app/app'
+require '../../app/globals'
 
 parsedUrl = url.parse(settings.serverUrl)
 port = parsedUrl.port or (parsedUrl.protocol == 'https:' and 443 or 80)

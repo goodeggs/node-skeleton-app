@@ -8,7 +8,7 @@ _ = require 'underscore'
 
 spec_jasmine_node = (callback) ->
   console.log 'Running Jasmine-Node specs...'
-  options = ['spec/lib', '--coffee', '--junitreport', '--noColor']
+  options = ['spec/app', '--coffee', '--junitreport', '--noColor']
   run_spec 'jasmine-node', options, callback
 
 spec_jasmine_headless = (callback) ->
@@ -30,7 +30,7 @@ run_spec = (command, options, callback) ->
     else
       process.exit(status)
 
-task 'spec:lib', 'Run jasmine-node', ->
+task 'spec:app', 'Run jasmine-node', ->
   spec_jasmine_node()
 
 task 'spec:client', 'Run jasmine-headless-webkit', ->

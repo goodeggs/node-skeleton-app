@@ -15,7 +15,7 @@ app.configure ->
   app.set 'views', './app/views'
   app.set 'view engine', 'coffee'
   # for coffeekup, install template helpers
-  app.set 'view options', hardcode: require('../views/helpers.coffee')
+  app.set 'view options', hardcode: require('./views/helpers.coffee')
   app.register '.coffee', require('coffeekup').adapters.express
   app.use express.bodyParser()
   app.use express.methodOverride()

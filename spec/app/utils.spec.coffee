@@ -1,6 +1,6 @@
 require '../support/spec_helper'
 
-u = require '../../app/lib/utils'
+u = require '../../app/utils'
 
 describe 'utils', ->
   describe 'argsWithCallback', ->
