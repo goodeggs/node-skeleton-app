@@ -1,0 +1,11 @@
+@serverUrl = switch env
+  when 'production' then 'YOUR PRODUCTION URL'
+  when 'test' then 'http://localhost:3001'
+  else 'http://localhost:3000'
+
+@googleAnalyiticsId = 'YOUR ANALYTICS ID'
+
+@mixpanelId = 'YOUR MIXPANEL ID'
+
+@airbrakeKey = 'YOUR AIRBRAKE ID'
+

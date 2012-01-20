@@ -1,0 +1,40 @@
+$hdHeight = 38px
+
+html, body
+  height 100%
+
+#doc
+  height 200%
+
+#hd 
+  position absolute
+  top 0
+  height $hdHeight
+  width 100%
+  background #333
+
+#frame
+  position absolute
+  top $hdHeight
+  bottom 0
+  width 100%
+  overflow hidden
+
+#splash
+  background #fff
+  position absolute
+  top $hdHeight
+  height 200%
+  width 100%
+
+/* extra stuff not required for mobile layout */
+*
+  margin 0
+  padding 0
+
+img
+  vertical-align bottom
+
+#hd 
+  color #fff
+  text-align center
