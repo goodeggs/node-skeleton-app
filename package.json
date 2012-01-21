@@ -1,5 +1,5 @@
 {
-    "name": "egg_carton"
+    "name": "node-skeleton-app"
   , "version": "0.0.1"
   , "private": true
   , "dependencies": {
@@ -13,6 +13,7 @@
     , "stylus": "0.20.0"
     , "timezone": "0.0.7"
     , "underscore": "1.2.3"
+    , "node-airbrake-logger": "git://github.com/goodeggs/node-airbrake-logger.git"
   }
   , "devDependencies": {
       "jasmine-node": "1.x.x"
