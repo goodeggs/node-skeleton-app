@@ -11,9 +11,9 @@
     , "express": "2.5.5"
     , "fibers": "0.6.4"
     , "stylus": "0.20.0"
-    , "timezone": "0.0.7"
     , "underscore": "1.2.3"
     , "node-airbrake-logger": "git://github.com/goodeggs/node-airbrake-logger.git"
+    , "node-clock": "git://github.com/goodeggs/node-clock.git"
   }
   , "devDependencies": {
       "jasmine-node": "1.x.x"

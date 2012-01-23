@@ -1,7 +1,7 @@
 # modules we want available globally.
 GLOBAL._ = require 'underscore'
 GLOBAL.async = require 'async'
-GLOBAL.clock = require './clock'
+GLOBAL.clock = require 'node-clock'
 GLOBAL.logger = require 'node-airbrake-logger'
 GLOBAL.settings = require '../config/settings'
 
